@@ -1,6 +1,5 @@
 # JSUI UN KNOB! V1.1
 
-
 ## What is JSUI UN KNOB!?
 
 JSUI_UN_KNOB is a Max 8 tool for designing and authoring JSUI knobs without having to do any coding! I know!
