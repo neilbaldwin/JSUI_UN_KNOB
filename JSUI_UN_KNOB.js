@@ -101,11 +101,11 @@ function redrawAll() {
 function msg_bang() {
   var output = (knob.getMode() == "UNIPOLAR") ? knob.value : knob.value * 2 - 1.0
   outlet(0, output);
-
 }
 
 function msg_float(f) {
     knob.setValue(f);
     mgraphics.redraw();
+    msg_bang();
     refresh();
 }
