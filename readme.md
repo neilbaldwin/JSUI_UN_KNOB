@@ -75,7 +75,9 @@ JSUI_UN_KNOB has multiple files:
 
   `JSUI @filename JSUI_UN_KNOB.js @jsarguments yourKnob.json`
 
-* Ponder at how much time I just saved you and send me beer/coffee/PayPal as a token of your grattitude.
+* Ponder at how much time I just saved you and send me a coffee as a token of your grattitude.
+
+<a href="https://www.buymeacoffee.com/neilbaldwi3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;" ></a>
 
 ## Editor Controls
 
