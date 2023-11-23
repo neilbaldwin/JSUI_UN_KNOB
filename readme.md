@@ -22,6 +22,12 @@ It's also obviously designed through my own lens of what I thought were handy/co
 
 Any questions on that front you can regularly find me on the Max Dicord server as 'neilbaldwin'
 
+## Support My Work
+
+If you like my work and use it or learn from it, please consider supporting me or just a donation to say thanks:
+
+<a href="https://www.buymeacoffee.com/neilbaldwi3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;" ></a>
+
 ## Requirements
 
 As it's a Max 8 patcher/Javascript tool you'll need Max 8.
