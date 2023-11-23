@@ -28,6 +28,8 @@ If you like my work and use it or learn from it, please consider supporting me o
 
 <a href="https://www.buymeacoffee.com/neilbaldwi3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;" ></a>
 
+:pray:
+
 ## Requirements
 
 As it's a Max 8 patcher/Javascript tool you'll need Max 8.
