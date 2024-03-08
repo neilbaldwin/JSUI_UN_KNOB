@@ -488,6 +488,10 @@ function Jsuiknob () {
     }
   }
 
+  this.setPointerColor = function(r, g, b, a) {
+    this.pointerColor = [r, g, b,a];
+  }
+
   function degreesToRadians(degrees) {
     return degrees * (Math.PI / 180);
   }

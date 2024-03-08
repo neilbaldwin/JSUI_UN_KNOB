@@ -98,6 +98,11 @@ function redrawAll() {
     refresh();
 }
 
+function pointercolor(r, g, b, a) {
+    knob.setPointerColor(r, g, b, a);
+    refresh();
+}
+
 function msg_bang() {
   var output = (knob.getMode() == "UNIPOLAR") ? knob.value : knob.value * 2 - 1.0
   outlet(0, output);
