@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.0, 134.0, 50.0, 22.0 ],
+					"patching_rect" : [ 13.0, 109.0, 50.0, 22.0 ],
 					"text" : "compile"
 				}
 
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 268.0, 23.0, 24.0, 24.0 ]
+					"patching_rect" : [ 67.0, 44.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "bang" ],
-					"patching_rect" : [ 268.0, 58.0, 158.0, 22.0 ],
+					"patching_rect" : [ 67.0, 79.0, 158.0, 22.0 ],
 					"text" : "colorpicker @compatibility 0"
 				}
 
@@ -81,59 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 88.0, 138.0, 22.0 ],
+					"patching_rect" : [ 67.0, 109.0, 138.0, 22.0 ],
 					"text" : "pointercolor $1 $2 $3 $4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "JSUI_UN_KNOB.js",
-					"id" : "obj-12",
-					"jsarguments" : [ "testKnob3.json" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 394.0, 167.0, 107.0, 107.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 398.800000071525574, 240.600001096725464, 107.0, 107.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "JSUI_UN_KNOB.js",
-					"id" : "obj-11",
-					"jsarguments" : [ "testKnob3.json" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 285.0, 167.0, 107.0, 107.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 289.800000071525574, 240.600001096725464, 107.0, 107.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "JSUI_UN_KNOB.js",
-					"id" : "obj-10",
-					"jsarguments" : [ "testKnob3.json" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 176.0, 167.0, 107.0, 107.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 180.800000071525574, 240.600001096725464, 107.0, 107.0 ]
 				}
 
 			}
@@ -154,28 +103,8 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"attr" : "jsarguments",
-					"id" : "obj-15",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 67.0, 84.0, 150.0, 22.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
