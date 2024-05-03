@@ -60,6 +60,7 @@ function ondrag(x, y, button, cmd, shift, capslock, option, ctrl) {
     }
 
     knob.updateValue(dy);
+    // Required for pattr support so that pattr clients know when knob value has been changed
     this.notifyclients();
 
     last_x = x;
