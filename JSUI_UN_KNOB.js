@@ -60,6 +60,7 @@ function ondrag(x, y, button, cmd, shift, capslock, option, ctrl) {
     }
 
     knob.updateValue(dy);
+    this.notifyclients();
 
     last_x = x;
     last_y = y;
@@ -72,6 +73,8 @@ function ondrag(x, y, button, cmd, shift, capslock, option, ctrl) {
 function ondblclick(x, y, button, cmd, shift, capslock, option, ctrl) {
     // Reset value
     knob.resetValue();
+    this.notifyclients();
+    refresh();
 }
 
 function onclick(x, y, button, cmd, shift, capslock, option, ctrl) {
@@ -112,5 +115,15 @@ function msg_float(f) {
     knob.setValue(f);
     mgraphics.redraw();
     msg_bang();
+    refresh();
+}
+
+function getvalueof(){
+    return knob.getValue();
+}
+
+function setvalueof(f){
+    knob.setValue(f);
+    this.notifyclients();
     refresh();
 }
